@@ -62,5 +62,22 @@ Audio processing libraries: librosa, torchaudio
 
 Jupyter Notebook / Python scripting environment
 
+## 📌 Project: Building & Deploying a Speech Recognition System Using Whisper & Gradio
+Speech recognition — converting spoken language into text — is a key task in natural language processing.
+
+This project provides a comprehensive guide to building and deploying a speech recognition system using OpenAI’s Whisper model and Gradio for an interactive web interface.
+
+Project Overview
+Setting up the working environment with all required packages, including Hugging Face’s transformers and datasets, as well as audio libraries like soundfile, librosa, and gradio.
+
+Utilizing the LibriSpeech dataset from the Hugging Face hub, with detailed instructions for exploring and listening to audio samples.
+
+Building a fast and efficient Transformers pipeline using the distilled Whisper model, optimized for real-time speech recognition without sacrificing accuracy.
+
+Deploying a user-friendly web application via Gradio, enabling users to transcribe speech in real-time through microphone input or uploaded audio files.
+
+Providing step-by-step code examples and deployment instructions for easy reproduction and extension.
+
+This project offers a robust, interactive speech-to-text system suitable for both research and practical applications.
 
 
