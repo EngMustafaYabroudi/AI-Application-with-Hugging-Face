@@ -79,5 +79,28 @@ Deploying a user-friendly web application via Gradio, enabling users to transcri
 Providing step-by-step code examples and deployment instructions for easy reproduction and extension.
 
 This project offers a robust, interactive speech-to-text system suitable for both research and practical applications.
+## 📌 Project: Building a Text Translation System Using Meta’s NLLB Open-Source Model
+Hugging Face is a rich platform hosting numerous open-source models, providing an excellent resource for natural language processing projects.
+
+In this project, we explore how to leverage Meta’s No Language Left Behind (NLLB-200) open-source model via the Hugging Face Transformers library for machine translation tasks, focusing on testing its performance on different Arabic dialects and accents.
+
+Project Overview
+Model Used: Meta’s NLLB-200 (No Language Left Behind), designed for machine translation across 200 languages, especially for low-resource languages.
+
+Pipeline: Building a translator pipeline using the Hugging Face Transformers package, specifically using the distilled 600 million parameter variant of NLLB-200.
+
+Capabilities: The model supports single-sentence translation, excels in general domain texts, and aims to advance research in multilingual translation.
+
+Limitations:
+
+Not intended for domain-specific or legal/medical text translations.
+
+Not optimized for long documents (input length capped at 512 tokens).
+
+Translations are not certified for official use.
+
+Why NLLB?
+NLLB-200 addresses the challenge of translating languages with limited resources by training on a diverse dataset spanning many languages. It enables high-quality translation where prior models struggled, making it an important tool in democratizing access to language technology.
+
 
 
