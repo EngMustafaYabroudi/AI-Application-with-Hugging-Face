@@ -24,4 +24,21 @@ Hugging Face Transformers
 Pre-trained NLP Models
 
 Jupyter Notebook / Python Scripts
+## 📌 Project: Zero-Shot Audio Classification with Hugging Face CLAP Models
+Zero-shot audio classification is a challenging problem in machine learning, especially when labeled audio data is limited or unavailable. This project explores the use of Hugging Face’s open-source Contrastive Language-Audio Pretraining (CLAP) models to tackle this task effectively.
+
+The CLAP models apply contrastive learning to learn meaningful audio representations without relying on labeled examples during training. This approach enables classification of audio samples into categories described by natural language, without prior exposure to those categories.
+
+In this project, you will find:
+
+Setup instructions for the working environment tailored for audio classification.
+
+Building an audio classification pipeline leveraging Hugging Face’s transformers.
+
+Important considerations such as audio sampling rates optimized for transformer models.
+
+An overview of CLAP’s architecture and training process that empowers zero-shot classification.
+
+This project is valuable for anyone interested in zero-shot learning, audio processing, and applying pre-trained models to real-world audio classification challenges.
+
 
