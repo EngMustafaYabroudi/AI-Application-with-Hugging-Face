@@ -40,5 +40,27 @@ Important considerations such as audio sampling rates optimized for transformer 
 An overview of CLAP’s architecture and training process that empowers zero-shot classification.
 
 This project is valuable for anyone interested in zero-shot learning, audio processing, and applying pre-trained models to real-world audio classification challenges.
+🚀 Project Highlights
+Tackles the challenge of audio classification without labeled training data.
+
+Utilizes contrastive learning through CLAP models to connect audio and natural language.
+
+Enables classification of unseen audio categories via natural language descriptions.
+
+Demonstrates state-of-the-art zero-shot learning in the audio domain.
+
+Covers practical considerations like sampling rate and pipeline setup.
+
+🔧 Technologies & Tools
+Python
+
+Hugging Face Transformers and Datasets
+
+Contrastive Language-Audio Pretraining (CLAP) models
+
+Audio processing libraries: librosa, torchaudio
+
+Jupyter Notebook / Python scripting environment
+
 
 
